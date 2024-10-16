@@ -30,3 +30,19 @@
     margin: 30px auto;
   }
 }
+
+@media (width >= 800px) {
+  .container {
+    .skillList {
+      max-width: fit-content;
+      gap: 30px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+    hr {
+      width: 300px;
+    }
+  }
+}
